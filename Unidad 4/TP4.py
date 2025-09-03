@@ -92,3 +92,16 @@ print("Pares:", pares)
 print("Impares:", impares)
 print("Positivos:", positivos)
 print("Negativos:", negativos)
+
+#9) Media de 100 numeros
+
+suma = 0
+for i in range(10):
+    n = int(input("Ingrese un número: "))
+    suma = suma + n
+print("La media es:", suma / 10)
+
+#10 invertir numero
+
+n = input("Ingrese un número: ")
+print("Número invertido:", n[::-1])
